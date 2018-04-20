@@ -1,0 +1,77 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Full Operations Test Suite">
+
+
+  <test name="Sum Test">
+    <classes>
+	  <class name="com.epam.mentoring.calc.test.SumTest"/>
+    </classes>
+  </test>
+
+  <test name="Minus Test">
+    <classes>
+        <class name="com.epam.mentoring.calc.test.SubtractionTest"/>
+   </classes>
+  </test>
+
+  <test name="Multiply Test">
+    <classes>
+        <class name="com.epam.mentoring.calc.test.MultiplicationTest"/>
+    </classes>
+  </test>
+
+  <test name="Divide Test">
+    <classes>
+        <class name="com.epam.mentoring.calc.test.DivisionTest"/>
+    </classes>
+  </test>
+
+    <test name="Exponentiation Test">
+        <classes>
+            <class name="com.epam.mentoring.calc.test.PowTest"/>
+        </classes>
+    </test>
+
+    <test name="Sqrt Test">
+        <classes>
+            <class name="com.epam.mentoring.calc.test.SqrtTest"/>
+        </classes>
+    </test>
+
+    <test name="Sinus Test">
+        <classes>
+            <class name="com.epam.mentoring.calc.test.SinTest"/>
+        </classes>
+    </test>
+
+    <test name="Cosinus Test">
+        <classes>
+            <class name="com.epam.mentoring.calc.test.CosTest"/>
+        </classes>
+    </test>
+
+    <test name="Tangens Test">
+        <classes>
+            <class name="com.epam.mentoring.calc.test.TangTest"/>
+        </classes>
+    </test>
+
+    <test name="Cotangens Test">
+        <classes>
+            <class name="com.epam.mentoring.calc.test.CotangTest"/>
+        </classes>
+    </test>
+
+    <test name="Is Positive Test">
+        <classes>
+            <class name="com.epam.mentoring.calc.test.IsPositiveTest"/>
+        </classes>
+    </test>
+
+    <test name="Is Negative Test">
+        <classes>
+            <class name="com.epam.mentoring.calc.test.IsNegativeTest"/>
+        </classes>
+    </test>
+  
+</suite>

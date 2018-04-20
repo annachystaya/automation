@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Operations Test Suite">
+
+
+  <test name="Arithmetic Operations Test">
+    <classes>
+      <class name="com.epam.mentoring.calc.test.SumTest"/>
+      <class name="com.epam.mentoring.calc.test.SubtractionTest"/>
+      <class name="com.epam.mentoring.calc.test.MultiplicationTest"/>
+      <class name="com.epam.mentoring.calc.test.DivisionTest"/>
+    </classes>
+  </test>
+  
+</suite>

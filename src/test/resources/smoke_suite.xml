@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+
+  <test name="Smoke Test">
+    <groups>
+      <run>
+              <include name="smoke"/>
+      </run>
+    </groups>
+  </test>
+</suite>
